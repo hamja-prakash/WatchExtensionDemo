@@ -1,0 +1,1068 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A94708602B7F343800A25396 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A947085F2B7F343800A25396 /* AppDelegate.swift */; };
+		A94708622B7F343800A25396 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94708612B7F343800A25396 /* SceneDelegate.swift */; };
+		A94708642B7F343800A25396 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94708632B7F343800A25396 /* ViewController.swift */; };
+		A94708672B7F343800A25396 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A94708652B7F343800A25396 /* Main.storyboard */; };
+		A94708692B7F343900A25396 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A94708682B7F343900A25396 /* Assets.xcassets */; };
+		A947086C2B7F343900A25396 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A947086A2B7F343900A25396 /* LaunchScreen.storyboard */; };
+		A94708C52B7F367700A25396 /* GeokeyWatchAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94708C42B7F367700A25396 /* GeokeyWatchAppApp.swift */; };
+		A94708C72B7F367700A25396 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94708C62B7F367700A25396 /* ContentView.swift */; };
+		A94708C92B7F367800A25396 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A94708C82B7F367800A25396 /* Assets.xcassets */; };
+		A94708CC2B7F367800A25396 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A94708CB2B7F367800A25396 /* Preview Assets.xcassets */; };
+		A94708E52B7F367900A25396 /* GeokeyWatchApp Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = A94708C22B7F367700A25396 /* GeokeyWatchApp Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A94708F22B7F3C8E00A25396 /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94708F12B7F3C8E00A25396 /* ListViewModel.swift */; };
+		A9BB48872B846AE200E10C6F /* iOSCommunicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9BB48862B846AE200E10C6F /* iOSCommunicator.swift */; };
+		A9DD3B8E2B830F6200EA7FB5 /* ToastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9DD3B8D2B830F6200EA7FB5 /* ToastView.swift */; };
+		D93057E72B832DA700F80479 /* AccessPointListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93057E62B832DA700F80479 /* AccessPointListModel.swift */; };
+		D93057E82B832E0F00F80479 /* AccessPointListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93057E62B832DA700F80479 /* AccessPointListModel.swift */; };
+		D93057EB2B832E2B00F80479 /* WatchCommunicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93057EA2B832E2B00F80479 /* WatchCommunicator.swift */; };
+		D93057ED2B832E8D00F80479 /* WatchConnectivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D93057EC2B832E8D00F80479 /* WatchConnectivity.framework */; };
+		D93057F02B832EF900F80479 /* WatchError.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93057EF2B832EF900F80479 /* WatchError.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A94708732B7F343900A25396 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A94708542B7F343800A25396 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A947085B2B7F343800A25396;
+			remoteInfo = WatchExtensionDemo;
+		};
+		A947087D2B7F343900A25396 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A94708542B7F343800A25396 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A947085B2B7F343800A25396;
+			remoteInfo = WatchExtensionDemo;
+		};
+		A94708D22B7F367900A25396 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A94708542B7F343800A25396 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A94708C12B7F367700A25396;
+			remoteInfo = "GeokeyWatchApp Watch App";
+		};
+		A94708DC2B7F367900A25396 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A94708542B7F343800A25396 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A94708C12B7F367700A25396;
+			remoteInfo = "GeokeyWatchApp Watch App";
+		};
+		A94708E32B7F367900A25396 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A94708542B7F343800A25396 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A94708C12B7F367700A25396;
+			remoteInfo = "GeokeyWatchApp Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A94708E92B7F367900A25396 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				A94708E52B7F367900A25396 /* GeokeyWatchApp Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A947085C2B7F343800A25396 /* WatchExtensionDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WatchExtensionDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A947085F2B7F343800A25396 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A94708612B7F343800A25396 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A94708632B7F343800A25396 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A94708662B7F343800A25396 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A94708682B7F343900A25396 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A947086B2B7F343900A25396 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A947086D2B7F343900A25396 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A94708722B7F343900A25396 /* WatchExtensionDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WatchExtensionDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A947087C2B7F343900A25396 /* WatchExtensionDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WatchExtensionDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A94708A32B7F34D500A25396 /* Intents.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Intents.framework; path = System/Library/Frameworks/Intents.framework; sourceTree = SDKROOT; };
+		A94708B12B7F351900A25396 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		A94708B32B7F351900A25396 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		A94708C22B7F367700A25396 /* GeokeyWatchApp Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GeokeyWatchApp Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A94708C42B7F367700A25396 /* GeokeyWatchAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeokeyWatchAppApp.swift; sourceTree = "<group>"; };
+		A94708C62B7F367700A25396 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A94708C82B7F367800A25396 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A94708CB2B7F367800A25396 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A94708D12B7F367900A25396 /* GeokeyWatchApp Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GeokeyWatchApp Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A94708DB2B7F367900A25396 /* GeokeyWatchApp Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GeokeyWatchApp Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A94708F12B7F3C8E00A25396 /* ListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
+		A9BB48862B846AE200E10C6F /* iOSCommunicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSCommunicator.swift; sourceTree = "<group>"; };
+		A9DD3B8D2B830F6200EA7FB5 /* ToastView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastView.swift; sourceTree = "<group>"; };
+		D93057E62B832DA700F80479 /* AccessPointListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessPointListModel.swift; sourceTree = "<group>"; };
+		D93057EA2B832E2B00F80479 /* WatchCommunicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchCommunicator.swift; sourceTree = "<group>"; };
+		D93057EC2B832E8D00F80479 /* WatchConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WatchConnectivity.framework; path = System/Library/Frameworks/WatchConnectivity.framework; sourceTree = SDKROOT; };
+		D93057EF2B832EF900F80479 /* WatchError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchError.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A94708592B7F343800A25396 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D93057ED2B832E8D00F80479 /* WatchConnectivity.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A947086F2B7F343900A25396 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A94708792B7F343900A25396 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A94708BF2B7F367700A25396 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A94708CE2B7F367900A25396 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A94708D82B7F367900A25396 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A94708532B7F343800A25396 = {
+			isa = PBXGroup;
+			children = (
+				A947085E2B7F343800A25396 /* WatchExtensionDemo */,
+				A94708C32B7F367700A25396 /* GeokeyWatchApp Watch App */,
+				A94708A22B7F34D500A25396 /* Frameworks */,
+				A947085D2B7F343800A25396 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A947085D2B7F343800A25396 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A947085C2B7F343800A25396 /* WatchExtensionDemo.app */,
+				A94708722B7F343900A25396 /* WatchExtensionDemoTests.xctest */,
+				A947087C2B7F343900A25396 /* WatchExtensionDemoUITests.xctest */,
+				A94708C22B7F367700A25396 /* GeokeyWatchApp Watch App.app */,
+				A94708D12B7F367900A25396 /* GeokeyWatchApp Watch AppTests.xctest */,
+				A94708DB2B7F367900A25396 /* GeokeyWatchApp Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A947085E2B7F343800A25396 /* WatchExtensionDemo */ = {
+			isa = PBXGroup;
+			children = (
+				D93057EE2B832EEC00F80479 /* Error */,
+				D93057E92B832E2000F80479 /* WatchCommunicator */,
+				D93057E52B832D9900F80479 /* Model */,
+				A947085F2B7F343800A25396 /* AppDelegate.swift */,
+				A94708612B7F343800A25396 /* SceneDelegate.swift */,
+				A94708632B7F343800A25396 /* ViewController.swift */,
+				A94708652B7F343800A25396 /* Main.storyboard */,
+				A94708682B7F343900A25396 /* Assets.xcassets */,
+				A947086A2B7F343900A25396 /* LaunchScreen.storyboard */,
+				A947086D2B7F343900A25396 /* Info.plist */,
+			);
+			path = WatchExtensionDemo;
+			sourceTree = "<group>";
+		};
+		A94708A22B7F34D500A25396 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D93057EC2B832E8D00F80479 /* WatchConnectivity.framework */,
+				A94708A32B7F34D500A25396 /* Intents.framework */,
+				A94708B12B7F351900A25396 /* WidgetKit.framework */,
+				A94708B32B7F351900A25396 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A94708C32B7F367700A25396 /* GeokeyWatchApp Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				A9BB48852B846AA100E10C6F /* iOSCommunicator */,
+				A9DD3B8C2B830EFC00EA7FB5 /* Utility */,
+				A94708F02B7F3C7B00A25396 /* ViewModel */,
+				A94708C42B7F367700A25396 /* GeokeyWatchAppApp.swift */,
+				A94708C62B7F367700A25396 /* ContentView.swift */,
+				A94708C82B7F367800A25396 /* Assets.xcassets */,
+				A94708CA2B7F367800A25396 /* Preview Content */,
+			);
+			path = "GeokeyWatchApp Watch App";
+			sourceTree = "<group>";
+		};
+		A94708CA2B7F367800A25396 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A94708CB2B7F367800A25396 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A94708F02B7F3C7B00A25396 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				A94708F12B7F3C8E00A25396 /* ListViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		A9BB48852B846AA100E10C6F /* iOSCommunicator */ = {
+			isa = PBXGroup;
+			children = (
+				A9BB48862B846AE200E10C6F /* iOSCommunicator.swift */,
+			);
+			path = iOSCommunicator;
+			sourceTree = "<group>";
+		};
+		A9DD3B8C2B830EFC00EA7FB5 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				A9DD3B8D2B830F6200EA7FB5 /* ToastView.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		D93057E52B832D9900F80479 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D93057E62B832DA700F80479 /* AccessPointListModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D93057E92B832E2000F80479 /* WatchCommunicator */ = {
+			isa = PBXGroup;
+			children = (
+				D93057EA2B832E2B00F80479 /* WatchCommunicator.swift */,
+			);
+			path = WatchCommunicator;
+			sourceTree = "<group>";
+		};
+		D93057EE2B832EEC00F80479 /* Error */ = {
+			isa = PBXGroup;
+			children = (
+				D93057EF2B832EF900F80479 /* WatchError.swift */,
+			);
+			path = Error;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A947085B2B7F343800A25396 /* WatchExtensionDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A94708862B7F343900A25396 /* Build configuration list for PBXNativeTarget "WatchExtensionDemo" */;
+			buildPhases = (
+				A94708582B7F343800A25396 /* Sources */,
+				A94708592B7F343800A25396 /* Frameworks */,
+				A947085A2B7F343800A25396 /* Resources */,
+				A94708E92B7F367900A25396 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A94708E42B7F367900A25396 /* PBXTargetDependency */,
+			);
+			name = WatchExtensionDemo;
+			productName = WatchExtensionDemo;
+			productReference = A947085C2B7F343800A25396 /* WatchExtensionDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A94708712B7F343900A25396 /* WatchExtensionDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A94708892B7F343900A25396 /* Build configuration list for PBXNativeTarget "WatchExtensionDemoTests" */;
+			buildPhases = (
+				A947086E2B7F343900A25396 /* Sources */,
+				A947086F2B7F343900A25396 /* Frameworks */,
+				A94708702B7F343900A25396 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A94708742B7F343900A25396 /* PBXTargetDependency */,
+			);
+			name = WatchExtensionDemoTests;
+			productName = WatchExtensionDemoTests;
+			productReference = A94708722B7F343900A25396 /* WatchExtensionDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A947087B2B7F343900A25396 /* WatchExtensionDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A947088C2B7F343900A25396 /* Build configuration list for PBXNativeTarget "WatchExtensionDemoUITests" */;
+			buildPhases = (
+				A94708782B7F343900A25396 /* Sources */,
+				A94708792B7F343900A25396 /* Frameworks */,
+				A947087A2B7F343900A25396 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A947087E2B7F343900A25396 /* PBXTargetDependency */,
+			);
+			name = WatchExtensionDemoUITests;
+			productName = WatchExtensionDemoUITests;
+			productReference = A947087C2B7F343900A25396 /* WatchExtensionDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		A94708C12B7F367700A25396 /* GeokeyWatchApp Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A94708E62B7F367900A25396 /* Build configuration list for PBXNativeTarget "GeokeyWatchApp Watch App" */;
+			buildPhases = (
+				A94708BE2B7F367700A25396 /* Sources */,
+				A94708BF2B7F367700A25396 /* Frameworks */,
+				A94708C02B7F367700A25396 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GeokeyWatchApp Watch App";
+			productName = "GeokeyWatchApp Watch App";
+			productReference = A94708C22B7F367700A25396 /* GeokeyWatchApp Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A94708D02B7F367900A25396 /* GeokeyWatchApp Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A94708EA2B7F367900A25396 /* Build configuration list for PBXNativeTarget "GeokeyWatchApp Watch AppTests" */;
+			buildPhases = (
+				A94708CD2B7F367900A25396 /* Sources */,
+				A94708CE2B7F367900A25396 /* Frameworks */,
+				A94708CF2B7F367900A25396 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A94708D32B7F367900A25396 /* PBXTargetDependency */,
+			);
+			name = "GeokeyWatchApp Watch AppTests";
+			productName = "GeokeyWatchApp Watch AppTests";
+			productReference = A94708D12B7F367900A25396 /* GeokeyWatchApp Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A94708DA2B7F367900A25396 /* GeokeyWatchApp Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A94708ED2B7F367900A25396 /* Build configuration list for PBXNativeTarget "GeokeyWatchApp Watch AppUITests" */;
+			buildPhases = (
+				A94708D72B7F367900A25396 /* Sources */,
+				A94708D82B7F367900A25396 /* Frameworks */,
+				A94708D92B7F367900A25396 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A94708DD2B7F367900A25396 /* PBXTargetDependency */,
+			);
+			name = "GeokeyWatchApp Watch AppUITests";
+			productName = "GeokeyWatchApp Watch AppUITests";
+			productReference = A94708DB2B7F367900A25396 /* GeokeyWatchApp Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A94708542B7F343800A25396 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					A947085B2B7F343800A25396 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					A94708712B7F343900A25396 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = A947085B2B7F343800A25396;
+					};
+					A947087B2B7F343900A25396 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = A947085B2B7F343800A25396;
+					};
+					A94708C12B7F367700A25396 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					A94708D02B7F367900A25396 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = A94708C12B7F367700A25396;
+					};
+					A94708DA2B7F367900A25396 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = A94708C12B7F367700A25396;
+					};
+				};
+			};
+			buildConfigurationList = A94708572B7F343800A25396 /* Build configuration list for PBXProject "WatchExtensionDemo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A94708532B7F343800A25396;
+			productRefGroup = A947085D2B7F343800A25396 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A947085B2B7F343800A25396 /* WatchExtensionDemo */,
+				A94708712B7F343900A25396 /* WatchExtensionDemoTests */,
+				A947087B2B7F343900A25396 /* WatchExtensionDemoUITests */,
+				A94708C12B7F367700A25396 /* GeokeyWatchApp Watch App */,
+				A94708D02B7F367900A25396 /* GeokeyWatchApp Watch AppTests */,
+				A94708DA2B7F367900A25396 /* GeokeyWatchApp Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A947085A2B7F343800A25396 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A947086C2B7F343900A25396 /* LaunchScreen.storyboard in Resources */,
+				A94708692B7F343900A25396 /* Assets.xcassets in Resources */,
+				A94708672B7F343800A25396 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A94708702B7F343900A25396 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A947087A2B7F343900A25396 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A94708C02B7F367700A25396 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A94708CC2B7F367800A25396 /* Preview Assets.xcassets in Resources */,
+				A94708C92B7F367800A25396 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A94708CF2B7F367900A25396 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A94708D92B7F367900A25396 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A94708582B7F343800A25396 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A94708642B7F343800A25396 /* ViewController.swift in Sources */,
+				D93057EB2B832E2B00F80479 /* WatchCommunicator.swift in Sources */,
+				D93057F02B832EF900F80479 /* WatchError.swift in Sources */,
+				A94708602B7F343800A25396 /* AppDelegate.swift in Sources */,
+				D93057E72B832DA700F80479 /* AccessPointListModel.swift in Sources */,
+				A94708622B7F343800A25396 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A947086E2B7F343900A25396 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A94708782B7F343900A25396 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A94708BE2B7F367700A25396 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9DD3B8E2B830F6200EA7FB5 /* ToastView.swift in Sources */,
+				A94708C72B7F367700A25396 /* ContentView.swift in Sources */,
+				A94708C52B7F367700A25396 /* GeokeyWatchAppApp.swift in Sources */,
+				A94708F22B7F3C8E00A25396 /* ListViewModel.swift in Sources */,
+				D93057E82B832E0F00F80479 /* AccessPointListModel.swift in Sources */,
+				A9BB48872B846AE200E10C6F /* iOSCommunicator.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A94708CD2B7F367900A25396 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A94708D72B7F367900A25396 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A94708742B7F343900A25396 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A947085B2B7F343800A25396 /* WatchExtensionDemo */;
+			targetProxy = A94708732B7F343900A25396 /* PBXContainerItemProxy */;
+		};
+		A947087E2B7F343900A25396 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A947085B2B7F343800A25396 /* WatchExtensionDemo */;
+			targetProxy = A947087D2B7F343900A25396 /* PBXContainerItemProxy */;
+		};
+		A94708D32B7F367900A25396 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A94708C12B7F367700A25396 /* GeokeyWatchApp Watch App */;
+			targetProxy = A94708D22B7F367900A25396 /* PBXContainerItemProxy */;
+		};
+		A94708DD2B7F367900A25396 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A94708C12B7F367700A25396 /* GeokeyWatchApp Watch App */;
+			targetProxy = A94708DC2B7F367900A25396 /* PBXContainerItemProxy */;
+		};
+		A94708E42B7F367900A25396 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A94708C12B7F367700A25396 /* GeokeyWatchApp Watch App */;
+			targetProxy = A94708E32B7F367900A25396 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A94708652B7F343800A25396 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A94708662B7F343800A25396 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A947086A2B7F343900A25396 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A947086B2B7F343900A25396 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A94708842B7F343900A25396 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A94708852B7F343900A25396 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A94708872B7F343900A25396 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2SMY6XRGYB;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WatchExtensionDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.widgetTest.WatchExtensionDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A94708882B7F343900A25396 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2SMY6XRGYB;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WatchExtensionDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.widgetTest.WatchExtensionDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A947088A2B7F343900A25396 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2SMY6XRGYB;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.widgetTest.WatchExtensionDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WatchExtensionDemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WatchExtensionDemo";
+			};
+			name = Debug;
+		};
+		A947088B2B7F343900A25396 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2SMY6XRGYB;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.widgetTest.WatchExtensionDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WatchExtensionDemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WatchExtensionDemo";
+			};
+			name = Release;
+		};
+		A947088D2B7F343900A25396 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2SMY6XRGYB;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.widgetTest.WatchExtensionDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WatchExtensionDemo;
+			};
+			name = Debug;
+		};
+		A947088E2B7F343900A25396 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2SMY6XRGYB;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.widgetTest.WatchExtensionDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WatchExtensionDemo;
+			};
+			name = Release;
+		};
+		A94708E72B7F367900A25396 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GeokeyWatchApp Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 2SMY6XRGYB;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = GeokeyWatchApp;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.widgetTest.WatchExtensionDemo;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.widgetTest.WatchExtensionDemo.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		A94708E82B7F367900A25396 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GeokeyWatchApp Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 2SMY6XRGYB;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = GeokeyWatchApp;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.widgetTest.WatchExtensionDemo;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.widgetTest.WatchExtensionDemo.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+		A94708EB2B7F367900A25396 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2SMY6XRGYB;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.widgetTest.GeokeyWatchApp-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GeokeyWatchApp Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GeokeyWatchApp Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		A94708EC2B7F367900A25396 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2SMY6XRGYB;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.widgetTest.GeokeyWatchApp-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GeokeyWatchApp Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GeokeyWatchApp Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+		A94708EE2B7F367900A25396 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2SMY6XRGYB;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.widgetTest.GeokeyWatchApp-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "GeokeyWatchApp Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		A94708EF2B7F367900A25396 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2SMY6XRGYB;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.widgetTest.GeokeyWatchApp-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "GeokeyWatchApp Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A94708572B7F343800A25396 /* Build configuration list for PBXProject "WatchExtensionDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A94708842B7F343900A25396 /* Debug */,
+				A94708852B7F343900A25396 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A94708862B7F343900A25396 /* Build configuration list for PBXNativeTarget "WatchExtensionDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A94708872B7F343900A25396 /* Debug */,
+				A94708882B7F343900A25396 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A94708892B7F343900A25396 /* Build configuration list for PBXNativeTarget "WatchExtensionDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A947088A2B7F343900A25396 /* Debug */,
+				A947088B2B7F343900A25396 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A947088C2B7F343900A25396 /* Build configuration list for PBXNativeTarget "WatchExtensionDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A947088D2B7F343900A25396 /* Debug */,
+				A947088E2B7F343900A25396 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A94708E62B7F367900A25396 /* Build configuration list for PBXNativeTarget "GeokeyWatchApp Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A94708E72B7F367900A25396 /* Debug */,
+				A94708E82B7F367900A25396 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A94708EA2B7F367900A25396 /* Build configuration list for PBXNativeTarget "GeokeyWatchApp Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A94708EB2B7F367900A25396 /* Debug */,
+				A94708EC2B7F367900A25396 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A94708ED2B7F367900A25396 /* Build configuration list for PBXNativeTarget "GeokeyWatchApp Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A94708EE2B7F367900A25396 /* Debug */,
+				A94708EF2B7F367900A25396 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A94708542B7F343800A25396 /* Project object */;
+}
